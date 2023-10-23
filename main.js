@@ -7,6 +7,9 @@ function toggleVisibility(element) {
   }
 }
 
+// Information On load
+alert("Please Use In Full Screen Mode. The Timeline Will Be Distorted if Not");
+
 // Usage:
 
 // Popup 1
@@ -30,4 +33,39 @@ document.getElementById("btn3").addEventListener("click", () => {
 });
 document.getElementById("close3").addEventListener("click", () => {
   toggleVisibility(document.getElementById("popup3"));
+});
+// Popup 4
+document.getElementById("btn4").addEventListener("click", () => {
+  toggleVisibility(document.getElementById("popup4"));
+});
+document.getElementById("close4").addEventListener("click", () => {
+  toggleVisibility(document.getElementById("popup4"));
+});
+// Popup 5
+document.getElementById("btn5").addEventListener("click", () => {
+  toggleVisibility(document.getElementById("popup5"));
+});
+document.getElementById("close5").addEventListener("click", () => {
+  toggleVisibility(document.getElementById("popup5"));
+});
+// Popup 8
+document.getElementById("btn8").addEventListener("click", () => {
+  toggleVisibility(document.getElementById("popup8"));
+});
+document.getElementById("close8").addEventListener("click", () => {
+  toggleVisibility(document.getElementById("popup8"));
+});
+// Popup 9
+document.getElementById("btn9").addEventListener("click", () => {
+  toggleVisibility(document.getElementById("popup9"));
+});
+document.getElementById("close9").addEventListener("click", () => {
+  toggleVisibility(document.getElementById("popup9"));
+});
+// Popup 10
+document.getElementById("btn10").addEventListener("click", () => {
+  toggleVisibility(document.getElementById("popup10"));
+});
+document.getElementById("close10").addEventListener("click", () => {
+  toggleVisibility(document.getElementById("popup10"));
 });

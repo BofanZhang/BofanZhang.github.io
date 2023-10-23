@@ -42,7 +42,8 @@
 
 .Reason {
   position: fixed;
-  left: 19%;
+  left: auto;
+  left: 18%;
   top: 55%;
 }
 
@@ -60,7 +61,8 @@ html {
 
 .Religon {
   position: fixed;
-  left: 19%;
+  left: auto;
+  left: 18%;
   top: 45%;
 }
 
@@ -70,6 +72,8 @@ html {
   height: 20px;
   background-color: transparent;
   border: 2px solid black;
+  left: auto;
+  top: auto;
   left: 26%;
   top: 55%;
 }
@@ -117,9 +121,176 @@ html {
 }
 
 .popup3 {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  visibility: hidden;
+}
+
+.point4 {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid black;
+  left: 35%;
+  top: 54%;
+}
+
+.popup4 {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  visibility: hidden;
+}
+
+.point5 {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid black;
+  left: 39%;
+  top: 50%;
+}
+
+.popup5 {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  visibility: hidden;
+}
+
+.point6 {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid black;
+  left: 46%;
+  top: 48%;
+}
+
+.popup6 {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  visibility: hidden;
+}
+
+.point7 {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid black;
+  left: 50%;
+  top: 49%;
+}
+
+.popup7 {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  visibility: hidden;
+}
+
+.point8 {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid black;
+  left: 56%;
+  top: 40%;
+}
+
+.popup8 {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  visibility: hidden;
+}
+
+.point9 {
+  position: fixed;
+  left: 60%;
+  top: 45%;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid black;
+}
+
+.popup9 {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  visibility: hidden;
+}
+
+.point10 {
+  position: fixed;
+  left: 65%;
+  top: 45%;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid black;
+}
+
+.popup10 {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  visibility: hidden;
+}
+
+.point11 {
+  position: fixed;
+  /*Top and Left to be Determined*/
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid black;
+}
+
+.popup11 {
+  position: fixed;
+  left: 50%;
+  top: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
   border: 1px solid black;
