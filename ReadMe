@@ -1,0 +1,47 @@
+#parent {
+height: 100px;
+overflow: auto;
+}
+
+#child1 {
+position: absolute;
+top: 10px;
+left: 10px;
+background: red;
+width: 30px;
+height: 30px;
+}
+
+#child2 {
+position: absolute;
+top: 10px;
+right: 10px;
+background: blue;
+width: 30px;
+height: 30px;
+}
+
+.horizontal {
+margin: auto;
+position: fixed;
+left: 10%;
+top: 50%;
+width: 800px;
+border: 2px solid black;
+}
+
+.vertical {
+margin: auto;
+position: fixed;
+transform: translate(-50%, -50%);
+left: 10%;
+top: 50%;
+height: 200px;
+border-left: 3px solid black;
+}
+
+.Reason {
+position: fixed;
+margin: auto;
+top: 55%;
+}
