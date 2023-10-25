@@ -84,7 +84,7 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
+  background-color: white;
   border: 1px solid black;
   padding: 20px;
   visibility: hidden;
@@ -96,8 +96,8 @@ h1 {
   height: 20px;
   background-color: transparent;
   border: 2px solid black;
-  left: 28%;
-  top: 54%;
+  left: 30%;
+  top: 48%;
 }
 
 .popup2 {
@@ -117,8 +117,8 @@ h1 {
   height: 20px;
   background-color: transparent;
   border: 2px solid black;
-  left: 30%;
-  top: 48%;
+  top: 49%;
+  left: 33%;
 }
 
 .popup3 {
@@ -139,7 +139,7 @@ h1 {
   background-color: transparent;
   border: 2px solid black;
   left: 35%;
-  top: 54%;
+  top: 49.5%;
 }
 
 .popup4 {
@@ -169,7 +169,7 @@ img {
   background-color: transparent;
   border: 2px solid black;
   left: 39%;
-  top: 50%;
+  top: 40%;
 }
 
 .popup5 {
@@ -189,8 +189,8 @@ img {
   height: 20px;
   background-color: transparent;
   border: 2px solid black;
-  left: 46%;
-  top: 48%;
+  left: 45%;
+  top: 43%;
 }
 
 .popup6 {
@@ -210,8 +210,8 @@ img {
   height: 20px;
   background-color: transparent;
   border: 2px solid black;
-  left: 50%;
-  top: 49%;
+  left: 51%;
+  top: 43%;
 }
 
 .popup7 {
@@ -232,7 +232,7 @@ img {
   background-color: transparent;
   border: 2px solid black;
   left: 56%;
-  top: 40%;
+  top: 53%;
 }
 
 .popup8 {
@@ -249,7 +249,7 @@ img {
 .point9 {
   position: fixed;
   left: 60%;
-  top: 45%;
+  top: 55%;
   width: 20px;
   height: 20px;
   background-color: transparent;
@@ -270,7 +270,7 @@ img {
 .point10 {
   position: fixed;
   left: 65%;
-  top: 45%;
+  top: 56%;
   width: 20px;
   height: 20px;
   background-color: transparent;
@@ -290,10 +290,11 @@ img {
 
 .point11 {
   position: fixed;
-  /*Top and Left to be Determined*/
+  left: 70%;
+  top: 60%;
   width: 20px;
   height: 20px;
-  background-color: transparent;
+  background-color: red;
   border: 2px solid black;
 }
 
@@ -317,7 +318,7 @@ img {
   border: 1px solid black;
   padding: 20px;
   visibility: hidden;
-  animation: Open 2s;
+  animation: Open 0.5s;
   animation-fill-mode: forwards;
 }
 
@@ -342,7 +343,7 @@ img {
   padding: 20px;
   visibility: hidden;
   animation-name: close;
-  animation-duration: 2s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
 
