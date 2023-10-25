@@ -8,9 +8,7 @@ function toggleVisibility(element) {
 }
 
 // Information On load
-alert("Please Use In Full Screen Mode. The Timeline Will Be Distorted if Not");
-
-// Usage:
+//alert("Please Use In Full Screen Mode. The Timeline Will Be Distorted if Not");
 
 // Popup 1
 document.getElementById("btn").addEventListener("click", () => {
@@ -28,10 +26,23 @@ document.getElementById("close2").addEventListener("click", () => {
   toggleVisibility(document.getElementById("popup2"));
 });
 // Popup 3
+const element3 = document.querySelector(`#popup3`);
+let isAnimated = false;
+
 document.getElementById("btn3").addEventListener("click", () => {
-  toggleVisibility(document.getElementById("popup3"));
+  if (isAnimated) {
+    element3.classList.remove(`OpenAnimation`);
+    element3.classList.add(`CloseAnimation`);
+    isAnimated = false;
+  } else {
+    element3.classList.remove(`CloseAnimation`);
+    element3.classList.add(`OpenAnimation`);
+  }
+  element3.classList.add(`OpenAnimation`);
 });
 document.getElementById("close3").addEventListener("click", () => {
+  element3.classList.remove(`OpenAnimation`);
+  element3.classList.add(`CloseAnimation`);
   toggleVisibility(document.getElementById("popup3"));
 });
 // Popup 4
